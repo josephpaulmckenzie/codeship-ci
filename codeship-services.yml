@@ -1,6 +1,6 @@
 codeship_example:
   build:
-    image: codeship_example
+    image: xenial-20190515
     dockerfile: Dockerfile
   environment:
     EXAMPLE_ENV_VAR: example-var
