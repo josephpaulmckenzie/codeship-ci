@@ -1,5 +1,7 @@
-- type: parallel
-  name: example_parallel_step
+- name: ci
+  type: parallel
   steps:
-    - service: thingtodo
-      command: echo "Deploy here!"
+  - service: thingtodo
+    command: npm run-script test-acceptance
+  - service: thingtodo
+    command: npm run-script test-unit
