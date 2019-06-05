@@ -1,0 +1,19 @@
+{
+  "name": "codeship",
+  "version": "1.0.0",
+  "description": "codeship # codeship-ci",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephpaulmckenzie/codeship-ci.git"
+  },
+  "author": "Joseph Mckenzie <joseph.p.mckenzie84@gmail.com> (https://www.github.com/josephpaulmckenzie)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephpaulmckenzie/codeship-ci/issues"
+  },
+  "homepage": "https://github.com/josephpaulmckenzie/codeship-ci#readme"
+}
