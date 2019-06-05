@@ -2,6 +2,4 @@
   type: parallel
   steps:
   - service: thingtodo
-    command: npm run-script test-acceptance
-  - service: thingtodo
-    command: npm run-script test-unit
+    command: echo "JOe"
