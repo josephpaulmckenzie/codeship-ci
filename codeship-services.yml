@@ -1,6 +1,6 @@
 thingtodo:
   build:
-    image: ubuntu
+    image: codeship/heroku-deployment
     dockerfile: Dockerfile
   environment:
     EXAMPLE_ENV_VAR: example-var
