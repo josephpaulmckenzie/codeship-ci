@@ -1,4 +1,4 @@
-codeship_example:
+thingtodo:
   build:
     image: ubuntu
     dockerfile: Dockerfile
