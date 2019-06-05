@@ -3,5 +3,3 @@
   steps:
     - service: thingtodo
       command: echo "Deploy here!"
-- name: example_tagged_step
-  tag: master
