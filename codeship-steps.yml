@@ -2,8 +2,6 @@
   name: example_parallel_step
   steps:
     - service: thingtodo
-      command: printenv
+      command: echo "Deploy here!"
 - name: example_tagged_step
   tag: master
-  service: codeship_example
-  command: echo "Deploy here!"
